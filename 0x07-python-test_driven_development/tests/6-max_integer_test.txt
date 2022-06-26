@@ -1,0 +1,38 @@
+The 6-max_integer Module:
+
+    >>> max_integer = __import__('6-max_integer').max_integer
+
+    >>> t="Hello. I am a string? Here is what you should do: parse me."
+
+Correct Usage:
+
+    >>> max_integer([1, 2, 3, 4])
+    4
+
+    >>> max_integer("")
+       <BLANKLINE>
+    
+    
+    >>> max_integer("")
+
+On Errors:
+
+    >>> text_indentation()
+    Traceback (most recent call last):
+    TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+    >>> text_indentation("ble", "ooh", "wah")
+    Traceback (most recent call last):
+    TypeError: text_indentation() takes 1 positional argument but 3 were given
+
+    >>> text_indentation(4)
+    Traceback (most recent call last):
+    TypeError: text must be a string
+
+    >>> text_indentation(None)
+    Traceback (most recent call last):
+    TypeError: text must be a string
+
+    >>> text_indentation(-4)
+    Traceback (most recent call last):
+    TypeError: text must be a string

@@ -3,14 +3,14 @@ The 3-say_my_name Module:
 
     >>> say_my_name = __import__("3-say_my_name").say_my_name
 
-    >>> say_my_name("Holberton", "School")
-    My name is Holberton School
+    >>> say_my_name("Alx", "School")
+    My name is Alx School
 
     >>> say_my_name("Beeyach")
     My name is Beeyach 
 
-    >>> say_my_name("Holberton", "Beach Party")
-    My name is Holberton Beach Party
+    >>> say_my_name("Alx", "Beach Party")
+    My name is Alx Beach Party
 
     >>> say_my_name("Don Quail")
     My name is Don Quail 
