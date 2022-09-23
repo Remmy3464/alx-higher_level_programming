@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Fetches https://intranet.hbtn.io/status"""
+"""Fetches https://alx-intranet.hbtn.io/status"""
 
 
 if __name__ == "__main__":
